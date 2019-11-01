@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vulcan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" user>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="../css/jquery.fancybox.css" rel="stylesheet" />
+    <script src="../js/jquery.fancybox.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="../js/WOW.js"></script>
+   
+</head>
+<script>
+
+        $(function () {
+            //    fancybox
+            jQuery(".fancybox").fancybox();
+        });
+    $(document).ready(function () {
+        $("#menuicon").click(function () {
+            $("#menuitems").slideToggle();
+        });
+        $("#showhiddencontent").click(function () {
+            $("#hiddencontentteam").slideToggle();
+        });
+        var windowsize = $(window).height();
+        $("#intro").css({ "margin-top": windowsize + 50 });
+    });
+    wow = new WOW(
+        {
+            boxClass: 'wow',      // default
+            animateClass: 'animated', // default
+            offset: 0,          // default
+            mobile: true,       // default
+            live: true        // default
+        }
+    )
+
+    new WOW().init();
+</script>
+
+<body>
+
+    <div id="header">
+
+        <div class="container">
+            <div class="row" style="padding:0px;">
+                <div class="col-lg-0 co-md-0 col-sm-12 col-xs-12" id="rmenuD">
+                    <div class="col-lg-0 co-md-0 col-sm-8 col-xs-8">
+                        <img src="../image/logo.png "style="width:200px;height:100%" class="img-responsive">
+                    </div>
+                    <div class="col-lg-0 col-md-0 col-sm-4 col-xs-4" style="text-align:right;">
+                        <span style="font-size:40px;" id="menuicon">
+                            <i class="fas fa-bars" style="margin-top:25px;"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-12 co-md-12 col-sm-12 col-xs-12">
+                    <ul id="menuitems">
+                        <ul id="menuitems">
+                            <a href="">
+                                <li>Home</li>
+                            </a>
+                            <a href="../index.html#intro">
+                                <li>About us</li>
+                            </a>
+                            <a href="../index.html#service">
+                                <li>Services</li>
+                            </a>
+                            <a href="#">
+                                <li style="position: relative;" id="imageli">
+                                    <div id="logoicon" class="wow bounceInDown">
+                                        <img src="../image/logo.png" style="width:100%;height:100%" />
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="../index.html#teamD">
+                                <li>Team</li>
+                            </a>
+                            <a href="../index.html#Gallary">
+                                <li>Gallary</li>
+                            </a>
+                            <a href="../index.html#contactD">
+                                <li>Contact Us</li>
+                            </a>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+   
+
+    <div id="Gallary" style="margin-top:100px;">
+        <div class="container">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                <h1 class="titleD">Gallery</h1>
+                <hr style="background:#D8D8D8;height:2px;width:10%;" />
+            </div>
+        </div>
+        <div class="container">
+            <div class="row wow fadeInUp">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 imgdiv ">
+                    <div class="imagebox"
+                        style="background: url('../image/gallary/image (22).jpg');background-size:cover;background-position:center;">
+                        <div class="imageoverlay">
+                            <a class="fancybox" rel="group" href="../image/gallary/image (22).jpg">
+                                <span style="border:1px solid white;padding:10px;color:white;font-size:15px;">
+                                    <i class="fas fa-search-plus"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 imgdiv  ">
+                    <div class="imagebox"
+                        style="background: url('../image/gallary/image (23).jpg');background-size:cover;background-position:center;">
+                        <div class="imageoverlay">
+                            <a class="fancybox" rel="group" href="../image/gallary/image (23).jpg">
+                                <span style="border:1px solid white;padding:10px;color:white;font-size:15px;">
+                                    <i class="fas fa-search-plus"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 imgdiv">
+                    <div class="imagebox"
+                        style="background: url('../image/gallary/image (24).jpg');background-size:cover;background-position:center;">
+                        <div class="imageoverlay">
+                            <a class="fancybox" rel="group" href="../image/gallary/image (24).jpg">
+                                <span style="border:1px solid white;padding:10px;color:white;font-size:15px;">
+                                    <i class="fas fa-search-plus"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row wow fadeInUp">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 imgdiv">
+                    <div class="imagebox"
+                        style="background: url('../image/gallary/image (25).jpg');background-size:cover;background-position:center;">
+                        <div class="imageoverlay">
+                            <a class="fancybox" rel="group" href="../image/gallary/image (24).jpg">
+                                <span style="border:1px solid white;padding:10px;color:white;font-size:15px;">
+                                    <i class="fas fa-search-plus"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 imgdiv">
+                    <div class="imagebox"
+                        style="background: url('../image/gallary/image (34).jpg');background-size:cover;background-position:center;">
+                        <div class="imageoverlay">
+                            <a class="fancybox" rel="group" href="../image/gallary/image (34).jpg">
+                                <span style="border:1px solid white;padding:10px;color:white;font-size:15px;">
+                                    <i class="fas fa-search-plus"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 imgdiv">
+                    <div class="imagebox"
+                        style="background: url('../image/gallary/image (35).jpg');background-size:cover;background-position:center;">
+                        <div class="imageoverlay">
+                            <a class="fancybox" rel="group" href="../image/gallary/image (35).jpg">
+                                <span style="border:1px solid white;padding:10px;color:white;font-size:15px;">
+                                    <i class="fas fa-search-plus"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+   
+    <div id="footer" style="background: #F5F5F5;">
+        <div class="container">
+            <div class="row" style="margin:0px;padding:0px;">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="copyrightD" >
+                    <p  style="font-size:15px;color:gray;">Copyritht 2019,Akshay Soni</p>
+                </div>
+                <div class="socialmedialink col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin:0px;">
+                    <span style="font-size:3em;color:#337ab7;">
+                        <i class="fab fa-facebook-square"></i>
+                    </span>
+                    <span style="font-size:3em;color:#337ab7;" >
+                        <i class="fab fa-twitter-square"></i>
+                    </span>
+                    <span style="font-size:3em;color:#337ab7;" >
+                        <i class="fab fa-google-plus-square"></i>
+                    </span>
+                    <span style="font-size:3em;color:#337ab7;" >
+                        <i class="fab fa-linkedin"></i>
+                    </span>
+                </div>
+            </div></div>
+        </div>	
+    
+</body>
+
+</html>
