@@ -1,0 +1,428 @@
+html, body{
+    margin:0px;
+    padding:0px;
+    scroll-behavior: smooth;
+}
+a
+{
+    color:black;
+}
+.cardview
+{
+    background: white;
+    width:100%;
+    height:600px;
+    padding:40px;
+    box-shadow:0px 0px 7px 0px;
+
+}
+.cardview:hover
+{
+    box-shadow:0px 0px 20px 0px;
+    
+}
+.cardD
+{
+    padding:50px;
+}
+#menuitems
+{
+    font-family:'Raleway', serif;  
+    list-style-type: none;
+    text-align: center;
+}
+ul{
+    margin:0px;
+    padding: 0px;
+}
+#menuitems a
+{
+    display:inline-block;
+    padding: 20px;
+    font-size: 16px;
+    text-decoration:none;
+
+}
+#menuitems a:nth-child(5)
+{
+    margin-left:300px;
+}
+#logoicon
+{
+    background:white;
+    position:absolute;
+    height:140px;
+    z-index: 50;
+    width:300px;
+   
+}
+#menuitems a:hover{
+    background: #DE1515;
+    color:white;
+
+    
+
+}
+.titleD
+{
+    font-family:'Raleway', serif;
+    text-align: center;
+    font-size:50px;
+}
+
+.sectionD
+{
+    width:100%;
+    height:100%;
+}
+#rmenuD
+{
+    display: none;
+}
+#menuitems a:nth-child(4):hover
+{
+    background:none;
+} 
+
+#intro
+{
+   
+    font-family:'Raleway', serif;
+   
+
+}
+.contain
+{
+    font-size:16px;
+    text-align:justify;
+    
+    color: #3f3844;
+}
+.teamcontain
+{
+    font-size:17px;
+    margin-top: 16px;
+    text-align:justify;
+    color: #3f3844;
+}
+.imgdiv
+{
+    padding: 10px;
+
+}
+.imagebox {
+    width: 100%;
+    height: 250px;
+}
+.imageoverlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.5);
+    opacity:0;
+
+
+}
+.imagebox:hover > .imageoverlay {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition:1s;
+    opacity:1;
+}
+.inputtxt
+{
+    width:50%;
+    height:40px;
+    font-size:16px;
+    margin-top: 30px;
+    padding: 10px;
+}
+#teamimagebox
+{
+    padding:10px;
+    margin-left:10%;
+    width:80%;
+    height:450px;
+    box-shadow:0px 0px 15px 5px;
+    margin-top:-100px;
+    background:white;
+}
+#hiddencontentteam
+{
+    display: none;
+}
+#addressD
+{
+    margin:160px 0px;
+}
+.socialmedialink
+{
+    text-align: right;
+    padding: 10px 0px;
+}
+#copyrightD
+{
+    margin:0px;
+    padding:30px 0px;
+}
+@media screen and (max-width: 992px) {
+    #copyrightD
+    {
+        text-align: center;
+    }
+    #addressD
+    {
+        margin:50px 0px;
+    }
+    .socialmedialink
+    {
+        text-align: center;
+         padding: 10px 0px; 
+    }
+    #teamimagebox
+    {
+        padding:10px;
+        margin-left:0%;
+        width:80%;
+        margin-left:10%;
+        height:300px;
+        margin-top:-100px;
+        background:white;
+    }
+    .inputtxt
+    {
+        width:100%;
+    }
+    .cardview
+    {
+        height:auto;
+    }
+    .cardD
+    {
+        padding:10px;
+    }
+    .contain
+    {
+         text-align:justify;
+    }
+   
+    #menuitems a:nth-child(4)
+    {
+        display: none;
+    }   
+    #menuitems
+    {
+        display:none;
+    }
+    #rmenuD
+    {
+        display: block;
+    }
+    
+   #menuitems a   
+    {
+         display:block;
+         padding: 20px 0px;
+         font-size: 16px;
+
+    }
+    #menuitems a:nth-child(5)
+    {
+        margin-left:0px;
+    }
+    #menuitem a:nth-child(4)
+    {
+        display:none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clientelDicon
+{
+    height:150px;
+
+}
+
+
+
+
+
+
+/* slider css */
+  
+  .pic-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  figure {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    /*animation*/
+    
+    animation: slideShow 24s linear infinite 0s;
+    -o-animation: slideShow 24s linear infinite 0s;
+    -moz-animation: slideShow 24s linear infinite 0s;
+    -webkit-animation: slideShow 24s linear infinite 0s;
+  }
+  
+  figurecaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+  }
+  
+  .pic-1 {
+    opacity: 1;
+    background: url('../image/iqzoFE.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .pic-2 {
+    animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -moz--animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+    background: url('../image/6BfTCw.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .pic-3 {
+    animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -moz--animation-delay: 12s;
+    -webkit-animation-delay: 12s;
+    background: url('../image/IVv6Xp.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .pic-4 {
+    animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -moz--animation-delay: 18s;
+    -webkit-animation-delay: 18s;
+    background: url('../image/BUz96l.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /* keyframes*/
+  
+  @keyframes 
+  slideShow {  0% {
+   opacity: 0;
+   transform:scale(1);
+   -ms-transform:scale(1);
+  }
+   5% {
+   opacity: 1
+  }
+   25% {
+   opacity: 1;
+  }
+   30% {
+   opacity: 0;
+   transform:scale(1.1);
+   -ms-transform:scale(1.1);
+  }
+   100% {
+   opacity: 0;
+   transform:scale(1);
+   -ms-transformm:scale(1);
+  }
+  }
+   @-o-keyframes 
+  slideShow {  0% {
+   opacity: 0;
+   -o-transform:scale(1);
+  }
+   5% {
+   opacity: 1
+  }
+   25% {
+   opacity: 1;
+  }
+   30% {
+   opacity: 0;
+   -o-transform:scale(1.1);
+  }
+   100% {
+   opacity: 0;
+   -o-transformm:scale(1);
+  }
+  }
+   @-moz-keyframes 
+  slideShow {  0% {
+   opacity: 0;
+   -moz-transform:scale(1);
+  }
+   5% {
+   opacity: 1
+  }
+   25% {
+   opacity: 1;
+  }
+   30% {
+   opacity: 0;
+   -moz-transform:scale(1.1);
+  }
+   100% {
+   opacity: 0;
+   -moz-transformm:scale(1);
+  }
+  }
+   @-webkit-keyframes 
+  slideShow {  0% {
+   opacity: 0;
+   -webkit-transform:scale(1);
+  }
+   5% {
+   opacity: 1
+  }
+   25% {
+   opacity: 1;
+  }
+   30% {
+   opacity: 0;
+   -webkit-transform:scale(1.1);
+  }
+   100% {
+   opacity: 0;
+   -webkit-transformm:scale(1);
+  }
+  }
